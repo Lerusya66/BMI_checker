@@ -1,0 +1,153 @@
+{
+  "summary": {
+    "project_name": null,
+    "building_name": null,
+    "num_storeys": 3,
+    "num_spaces": 4,
+    "num_doors": 3,
+    "num_windows": 4
+  },
+  "storeys": [
+    {
+      "id": "#131",
+      "name": "Ground Floor",
+      "elevation": 0.0,
+      "num_spaces": 3
+    },
+    {
+      "id": "#137",
+      "name": "Roof",
+      "elevation": 2500.0,
+      "num_spaces": 1
+    },
+    {
+      "id": "#83873",
+      "name": "Empty Storey - No Rooms",
+      "elevation": 5000.0,
+      "num_spaces": 0
+    }
+  ],
+  "rooms": [
+    {
+      "id": "#177",
+      "name": null,
+      "long_name": null,
+      "storey": "Ground Floor",
+      "area": 51.9948250000001
+    },
+    {
+      "id": "#323",
+      "name": null,
+      "long_name": null,
+      "storey": "Ground Floor",
+      "area": 15.41678125
+    },
+    {
+      "id": "#421",
+      "name": "3 - Entrance hall",
+      "long_name": "Entrance hall",
+      "storey": "Ground Floor",
+      "area": 0.05
+    },
+    {
+      "id": "#531",
+      "name": "4 - Roof",
+      "long_name": "Roof",
+      "storey": "Roof",
+      "area": null
+    }
+  ],
+  "doors": [
+    {
+      "id": "#10993",
+      "name": null
+    },
+    {
+      "id": "#21827",
+      "name": "Doors_IntSgl:810x2110mm:285959"
+    },
+    {
+      "id": "#32626",
+      "name": "Doors_IntSgl:810x2110mm:285996"
+    }
+  ],
+  "windows": [
+    {
+      "id": "#33350",
+      "name": null
+    },
+    {
+      "id": "#33515",
+      "name": "Windows_Sgl_Plain:1810x1210mm:286188"
+    },
+    {
+      "id": "#33588",
+      "name": "Windows_Sgl_Plain:1810x1210mm:286238"
+    },
+    {
+      "id": "#36107",
+      "name": "Windows_Sgl_Plain:1810x1210mm:287567"
+    }
+  ],
+  "issues": [
+    {
+      "severity": "warning",
+      "entity": "IfcProject",
+      "message": "Missing project name"
+    },
+    {
+      "severity": "warning",
+      "entity": "IfcBuilding",
+      "message": "Missing building name"
+    },
+    {
+      "severity": "warning",
+      "entity": "IfcSpace",
+      "message": "Room has no name",
+      "id": "#177"
+    },
+    {
+      "severity": "warning",
+      "entity": "IfcSpace",
+      "message": "Room has no name",
+      "id": "#323"
+    },
+    {
+      "severity": "warning",
+      "entity": "IfcSpace",
+      "message": "Room area is unusually small: 0.05",
+      "id": "#421",
+      "label": "3 - Entrance hall"
+    },
+    {
+      "severity": "warning",
+      "entity": "IfcSpace",
+      "message": "Room area is missing",
+      "id": "#531",
+      "label": "4 - Roof"
+    },
+    {
+      "severity": "warning",
+      "entity": "IfcBuildingStorey",
+      "message": "Storey has no rooms",
+      "id": "#83873",
+      "label": "Empty Storey - No Rooms"
+    },
+    {
+      "severity": "warning",
+      "entity": "IfcDoor",
+      "message": "Door has no name",
+      "id": "#10993"
+    },
+    {
+      "severity": "warning",
+      "entity": "IfcWindow",
+      "message": "Window has no name",
+      "id": "#33350"
+    }
+  ],
+  "metadata": {
+    "parser": "fallback-step-parser",
+    "small_area_threshold": 1.0
+  }
+}
